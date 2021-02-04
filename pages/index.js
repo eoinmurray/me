@@ -2,9 +2,8 @@ import Header from '../components/Header'
 
 export default () => (
   <div>
-
     <div className="rhs">
-      <img src="/pro.jpg" alt=""/>
+      <img src="/pro.jpg" alt="" />
     </div>
 
     <div className="lhs">
@@ -18,7 +17,9 @@ export default () => (
 
     <style jsx global>{`
       body {
-        font: 13px Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+        font: 13px Menlo, Monaco, Lucida Console, Liberation Mono,
+          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
+          serif;
         background-color: #000;
         color: white;
         margin: 0;
@@ -27,6 +28,7 @@ export default () => (
 
       a {
         color: white;
+        text-decoration: underline;
       }
 
       img {
@@ -60,4 +62,4 @@ export default () => (
       }
     `}</style>
   </div>
-)
+);

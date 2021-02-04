@@ -11,7 +11,8 @@ export default () => (
       <br />
       <p>
         Irish guy. Currently co-founder of <a href="https://kyso.io">Kyso</a>{" "}
-        and co-founder of <a href="https://arburyroad.com">The Arbury Foundation</a>.
+        and co-founder of{" "}
+        <a href="https://arburyroad.com">The Arbury Foundation</a>.
       </p>
       <br />
       <p>
@@ -19,7 +20,11 @@ export default () => (
         <a target="_blank" href="https://www.rinodrive.com/">
           Rinodrive
         </a>{" "}
-        and sold it in 2019 to Deepverge (LON: DVRG).
+        and sold it in 2019 to Deepverge (
+        <a href="https://www.londonstockexchange.com/stock/DVRG/deepverge-plc">
+          LON: DVRG
+        </a>
+        ) .
       </p>
       <p>
         - Built{" "}
@@ -72,6 +77,11 @@ export default () => (
           serif;
         margin: 0;
         padding: 0;
+      }
+
+      a {
+        color: blue;
+        text-decoration: underline;
       }
 
       img {

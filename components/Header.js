@@ -16,7 +16,7 @@ export default class extends React.Component {
           <title>🔥 Eoin Murray</title>
         </Head>
 
-        <img src="/static/profile.jpg" alt=""/>
+        <img src="/profile.jpg" alt=""/>
         <br/>
         <a href="/">Eoin Murray</a>
         <a href="/about">About</a>
