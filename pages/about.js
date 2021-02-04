@@ -24,7 +24,7 @@ export default () => (
         <a href="https://www.londonstockexchange.com/stock/DVRG/deepverge-plc">
           LON: DVRG
         </a>
-        ) .
+        ).
       </p>
       <p>
         - Built{" "}
